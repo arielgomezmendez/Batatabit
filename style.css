@@ -223,6 +223,7 @@ main {
     font-weight: 300;
     line-height: 1.5rem;
 }
+/********Tabla de comisiones********/
 .tabla-comisiones {
     width: 70%;
     min-width: 235px;
@@ -238,4 +239,55 @@ main {
     line-height: 2.3rem;
     color:var(--secondary-blue); 
 }
-       
+.tabla-contenedor {            
+    width: 90%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 250px;
+    margin: 0 auto;
+}
+.tabla-contenedor table {
+    width: 100%;
+    height: 100%;
+}
+.tabla-contenedor td {
+    width: 50%;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.9rem;
+    color: var(--grey);
+    background-color:var(--just-white) ;       
+}
+.tabla-contenedor .table__top-left {
+    border-radius: 15px 0 0 0;
+}
+.tabla-contenedor .table__top-right {
+    border-radius: 0 15px 0 0;
+}
+.tabla-contenedor .table__bottom-left {
+    border-radius: 0 0 0 15px;
+}
+.tabla-contenedor .table__bottom-right {
+    border-radius: 0 0 15px 0;
+}    
+.tabla-contenedor .table__right {
+    font-size: 1.4rem;
+    font-weight: normal;
+    line-height: 1.7rem;
+    color: #757575;
+} 
+.fecha {
+    width: 190px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 8px;
+    background-color: var(--soft-blue);
+    border-radius: 8px;
+}
+.fecha p {
+    color: var(--warm-black);
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1.5rem;
+}
