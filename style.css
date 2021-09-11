@@ -223,3 +223,19 @@ main {
     font-weight: 300;
     line-height: 1.5rem;
 }
+.tabla-comisiones {
+    width: 70%;
+    min-width: 235px;
+    max-width: 500px;
+    height: 360px;
+    margin: 0 auto;
+    font-family: "Inter", sans-serif;
+}
+.tabla-comisiones .titulo {
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2.3rem;
+    color:var(--secondary-blue); 
+}
+       
