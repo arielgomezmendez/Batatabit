@@ -418,8 +418,17 @@ main {
     line-height: 1.8rem;
     color: #757575;
 }
+.plans-container--slider {
+    display: flex;
+    gap: 50px;
+    height: 316px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
 .plans-container--card {
     position: relative;
+    scroll-snap-align: center;
     width: 70%;
     min-width: 230px;
     max-width: 300px;
