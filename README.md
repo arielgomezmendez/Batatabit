@@ -1,6 +1,6 @@
 # **Proyecto Batatabit**
 
-- This project is a cryptocurrency exchange platform that allows users to view real-time exchange rates of different exchange houses and currencies.
+This project is a cryptocurrency exchange platform that allows users to view real-time exchange rates of different exchange houses and currencies.
 
 ## Features
 
