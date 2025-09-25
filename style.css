@@ -307,6 +307,14 @@ main {
     left: calc(50% - 20px);
     background-image: url("./assets/icons/batata.svg");
 }
+
+.product-card-link{
+    text-decoration: none;
+    opacity: 0.45;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
 .product-detail--title {
     width: 90%;
     min-width: 288px;
